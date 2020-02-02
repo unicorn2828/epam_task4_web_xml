@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gems>
+    <gem origin="test" value="10" date="2020-01-20T19:21">
+        <name>test</name>
+        <preciousness>test</preciousness>
+        <parameters>
+            <color>test</color>
+            <transparence>10</transparence>
+            <facets>10</facets>
+        </parameters>
+    </gem>
+</gems>

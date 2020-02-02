@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://www.example.com/gems"
+	xsi:schemaLocation="http://www.example.com/gems gems.xsd">
+    <gem origin="test" value="10" >
+        <name>test</name>
+        <preciousness>test</preciousness>
+        <parameters>
+            <color>test</color>
+            <transparence>10</transparence>
+            <facets>10</facets>
+        </parameters>
+    </gem>
+</gems>

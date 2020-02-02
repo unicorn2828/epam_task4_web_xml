@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<gems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://www.example.com/gems"
+	xsi:schemaLocation="http://www.example.com/gems person.xsd">
+	<gem origin="Kenia" value="1000" date="2020-01-20T19:21">
+		<name>diamand</name>
+		<preciousness>precious</preciousness>
+		<parameters>
+			<color>white</color>
+			<transparence>100</transparence>
+			<facets>70</facets>
+		</parameters>
+	</gem>
+	<gem origin="Congo" value="500" date="2020-01-20T19:22">
+		<name>saphir</name>
+		<preciousness>semiprecious</preciousness>
+		<parameters>
+			<color>green</color>
+			<transparence>80</transparence>
+			<facets>55</facets>
+		</parameters>
+	</gem>
+	<gem origin="USA" value="450" date="2020-01-20T19:23">
+		<name>diamand</name>
+		<preciousness>precious</preciousness>
+		<parameters>
+			<color>black</color>
+			<transparence>100</transparence>
+			<facets>44</facets>
+		</parameters>
+	</gem>
+	<gem origin="Australia" value="120" date="2020-01-20T19:25">
+		<name>diamand</name>
+		<preciousness>precious</preciousness>
+		<parameters>
+			<color>black</color>
+			<transparence>70</transparence>
+			<facets>45</facets>
+		</parameters>
+	</gem>
+</gems>

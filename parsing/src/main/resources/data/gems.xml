@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<gems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://www.example.com/gems"
+	xsi:schemaLocation="http://www.example.com/gems gems.xsd">
+	<gem origin="Kenia" value="1000" date="2020-01-20T19:20">
+		<name>diamand</name>
+		<preciousness>precious</preciousness>
+		<parameters>
+			<color>white</color>
+			<transparence>100</transparence>
+			<facets>70</facets>
+		</parameters>
+	</gem>
+	<gem origin="Congo" value="500" date="2020-01-20T19:21">
+		<name>saphir</name>
+		<preciousness>semiprecious</preciousness>
+		<parameters>
+			<color>green</color>
+			<transparence>80</transparence>
+			<facets>55</facets>
+		</parameters>
+	</gem>
+	<gem origin="USA" value="450" date="2020-01-20T19:22">
+		<name>diamand</name>
+		<preciousness>precious</preciousness>
+		<parameters>
+			<color>black</color>
+			<transparence>100</transparence>
+			<facets>44</facets>
+		</parameters>
+	</gem>
+	<gem origin="Canada" value="200" date="2020-01-20T19:23">
+		<name>ametist</name>
+		<preciousness>semiprecious</preciousness>
+		<parameters>
+			<color>blue</color>
+			<transparence>70</transparence>
+			<facets>45</facets>
+		</parameters>
+	</gem>
+	<gem origin="Australia" value="120" date="2020-01-20T19:24">
+		<name>diamand</name>
+		<preciousness>precious</preciousness>
+		<parameters>
+			<color>black</color>
+			<transparence>70</transparence>
+			<facets>45</facets>
+		</parameters>
+	</gem>
+	<gem origin="Russia" value="400" date="2020-01-20T19:25">
+		<name>diamand</name>
+		<preciousness>precious</preciousness>
+		<parameters>
+			<color>white</color>
+			<transparence>70</transparence>
+			<facets>45</facets>
+		</parameters>
+	</gem>
+	<gem origin="Uganda" value="1200" date="2020-01-20T19:26">
+		<name>saphir</name>
+		<preciousness>semiprecious</preciousness>
+		<parameters>
+			<color>blue</color>
+			<transparence>70</transparence>
+			<facets>45</facets>
+		</parameters>
+	</gem>
+	<gem origin="Belarus" value="80" date="2020-01-20T19:27">
+		<name>diamand</name>
+		<preciousness>precious</preciousness>
+		<parameters>
+			<color>yellow</color>
+			<transparence>70</transparence>
+			<facets>45</facets>
+		</parameters>
+	</gem>
+	<gem origin="Poland" value="200" date="2020-01-20T19:28">
+		<name>ametist</name>
+		<preciousness>semiprecious</preciousness>
+		<parameters>
+			<color>blue</color>
+			<transparence>70</transparence>
+			<facets>45</facets>
+		</parameters>
+	</gem>
+	<gem origin="unknow" value="200" date="2020-01-20T19:29">
+		<name>diamand</name>
+		<preciousness>precious</preciousness>
+		<parameters>
+			<color>white</color>
+			<transparence>72</transparence>
+			<facets>42</facets>
+		</parameters>
+	</gem>
+	<gem origin="Japan" value="200" date="2020-01-20T19:30">
+		<name>saphir</name>
+		<preciousness>semiprecious</preciousness>
+		<parameters>
+			<color>blue</color>
+			<transparence>77</transparence>
+			<facets>55</facets>
+		</parameters>
+	</gem>
+	<gem origin="Belgium" value="234" date="2020-01-20T19:31">
+		<name>diamand</name>
+		<preciousness>precious</preciousness>
+		<parameters>
+			<color>white</color>
+			<transparence>70</transparence>
+			<facets>45</facets>
+		</parameters>
+	</gem>
+	<gem origin="Germany" value="888" date="2020-01-20T19:32">
+		<name>diamand</name>
+		<preciousness>precious</preciousness>
+		<parameters>
+			<color>blue</color>
+			<transparence>30</transparence>
+			<facets>25</facets>
+		</parameters>
+	</gem>
+	<gem origin="France" value="888" date="2020-01-20T19:33">
+		<name>diamand</name>
+		<preciousness>precious</preciousness>
+		<parameters>
+			<color>blue</color>
+			<transparence>80</transparence>
+			<facets>25</facets>
+		</parameters>
+	</gem>
+	<gem origin="Norway" value="300" date="2020-01-20T19:34">
+		<name>saphir</name>
+		<preciousness>semiprecious</preciousness>
+		<parameters>
+			<color>green</color>
+			<transparence>70</transparence>
+			<facets>75</facets>
+		</parameters>
+	</gem>
+	<gem origin="Monaco" value="720" date="2020-01-20T19:35">
+		<name>diamand</name>
+		<preciousness>precious</preciousness>
+		<parameters>
+			<color>blue</color>
+			<transparence>60</transparence>
+			<facets>15</facets>
+		</parameters>
+	</gem>
+</gems>

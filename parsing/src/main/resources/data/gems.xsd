@@ -1,0 +1,71 @@
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.example.com/gems"
+	xmlns:tns="http://www.example.com/gems" elementFormDefault="qualified">
+	<element name="gems">
+		<complexType>
+			<sequence>
+				<element name="gem" type="tns:Gem" minOccurs="1"
+					maxOccurs="unbounded" />
+			</sequence>
+		</complexType>
+	</element>
+	<complexType name="Gem">
+		<sequence>
+			<element name="name" type="string" />
+			<element name="preciousness" type="string" />
+			<element name="parameters" type="tns:Parameters" />
+		</sequence>
+		<attribute name="origin" type="tns:Origin" use="required" />
+		<attribute name="date"  use="required" />
+		<attribute name="value" use="optional" default="0">
+			<simpleType>
+				<restriction base="integer">
+					<pattern value="[0-9]{1,5}" />
+				</restriction>
+			</simpleType>
+		</attribute>
+	</complexType>
+	<simpleType name="Origin">
+		<restriction base="ID">
+			<enumeration value="unknow"></enumeration>
+			<enumeration value="Congo"></enumeration>
+			<enumeration value="Kenia"></enumeration>
+			<enumeration value="Russia"></enumeration>
+			<enumeration value="Canada"></enumeration>
+			<enumeration value="USA"></enumeration>
+			<enumeration value="Belgium"></enumeration>
+			<enumeration value="China"></enumeration>
+			<enumeration value="Australia"></enumeration>
+			<enumeration value="Uganda"></enumeration>
+			<enumeration value="Belarus"></enumeration>
+			<enumeration value="Ukraine"></enumeration>
+			<enumeration value="Poland"></enumeration>
+			<enumeration value="France"></enumeration>
+			<enumeration value="Germany"></enumeration>
+			<enumeration value="Norway"></enumeration>
+			<enumeration value="Japan"></enumeration>
+			<enumeration value="Monaco"></enumeration>
+			<pattern value="[A-Za-z]{3,15}" />
+		</restriction>
+	</simpleType>
+	<complexType name="Parameters">
+		<sequence>
+			<element name="color" type="tns:Color" default="unknow" />
+			<element name="transparence" type="positiveInteger" />
+			<element name="facets" type="positiveInteger" />
+		</sequence>
+	</complexType>
+	<simpleType name="Color">
+		<restriction base="string">
+			<enumeration value="unknow"></enumeration>
+			<enumeration value="white"></enumeration>
+			<enumeration value="blue"></enumeration>
+			<enumeration value="green"></enumeration>
+			<enumeration value="yellow"></enumeration>
+			<enumeration value="red"></enumeration>
+			<enumeration value="black"></enumeration>
+			<enumeration value="purple"></enumeration>
+			<pattern value="([a-zA-Z])[a-zA-Z0-9]{3,10}" />
+		</restriction>
+	</simpleType>
+</schema> 
